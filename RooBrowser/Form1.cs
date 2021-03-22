@@ -163,6 +163,21 @@ namespace RooBrowser
             }
             */
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string url = comboBox1.Text;
+            Browser.Load(url);
+        }
+
+        private void comboBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                string url = comboBox1.Text;
+                Browser.Load(url);
+            }
+        }
     }
     public class RequestContextHandler : IRequestContextHandler
     {

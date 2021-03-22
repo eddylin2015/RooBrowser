@@ -1,7 +1,5 @@
-# RooBrowser   
+# 小豆瀏灠器 RooBrowser   
   
-RooBrowser base on CefSharp. 
-   
-Support Flash Swf and Internal TV System!  
-
+RooBrowser 基於CefSharp.支援SWF及校內電視直播. 
+  
 
